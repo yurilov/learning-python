@@ -32,3 +32,13 @@ elif color == 'green':
     print(2)
 elif color == 'black':
     print(3)
+
+# number checker
+number = int(input())
+
+if number % 2 == 0:
+    print(number * 2)
+elif number % 2 == 1:
+    print(number * 3)
+else:
+    print(0)
