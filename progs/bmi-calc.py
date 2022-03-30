@@ -11,3 +11,8 @@ elif bmi < 30:
     print('Overweight')
 else:
     print('Obesity')
+
+# card type
+type = input()
+if type == 'Visa' or type == 'Amex':
+    print('accepted')
