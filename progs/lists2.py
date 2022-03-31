@@ -4,3 +4,11 @@ num = int(input())
 
 items[num] = 'x'
 print(items)
+
+# find 'a' in string
+s = input()
+
+if 'a' in s:
+    print('Match')
+if not 'a' in s:
+    print('No match')
