@@ -32,3 +32,14 @@ while n > 0:
 # print(length)
 
 print(sum)
+
+# an infinite loop to continuously take user input
+items = []
+
+while True:
+    n = int(input())
+    if n == 0:
+        break
+    items.append(n)
+
+print(items)
