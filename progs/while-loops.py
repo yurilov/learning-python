@@ -17,3 +17,18 @@ while x <= 10:
         print(x)
 
     x += 1
+
+# sum of digits in number
+n = int(input())
+
+length = 0
+sum = 0
+
+while n > 0:
+    sum += n % 10
+    n //= 10
+    length += 1
+
+# print(length)
+
+print(sum)
